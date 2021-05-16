@@ -1,0 +1,6 @@
+---
+Install_base_packages:
+  - iftop
+  - iotop
+  - htop
+

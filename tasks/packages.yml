@@ -1,0 +1,8 @@
+---
+- name: Install base packages
+  package:
+    name: "{{ Install_base_packages }}"
+    state: latest
+    when: ansible_os_family == 'Debian'
+    tags:
+        - Install_base_packages

@@ -1,0 +1,17 @@
+galaxy_info:
+  role_name: host_preparation
+  author: Liwsaki Live
+  description: host_preparation by liwsaki
+  license: MIT
+  min_ansible_version: 2.4
+  platforms:
+    - name: Ubuntu
+      version:
+        - xenial
+        - bionic
+        - focal fossa
+  galaxy_tags:
+    - system
+    - tuning
+    - update
+
